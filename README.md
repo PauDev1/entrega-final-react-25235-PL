@@ -46,3 +46,12 @@ Aplicar los conceptos fundamentales de React:
 1. Clonar el repositorio:
 ```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
+```
+2. Instalar dependencias:
+```bash
+npm install
+```
+3. Ejecutar el proyecto:
+``` bash
+npm start
+```
