@@ -1,16 +1,48 @@
-# React + Vite
+# Proyecto Final React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React.js** como entrega final, que simula un sistema de gestión de productos con funcionalidades de administración y carrito de compras.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+https://entrega-final-react-25235-pl.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías utilizadas
+- React.js
+- JavaScript (ES6+)
+- Bootstrap
+- Vercel (deploy)
 
-## React Compiler
+## 📌 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔐 Autenticación
+- Acceso a un **panel de administración mediante login**
+- Protección de rutas para el área administrativa
 
-## Expanding the ESLint configuration
+### 📦 Panel de Administración
+- CRUD completo de productos:
+  - Crear productos
+  - Listar productos
+  - Editar productos
+  - Eliminar productos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Carrito de Compras
+- Agregar productos al carrito
+- Visualizar productos seleccionados
+- Gestión básica del carrito
+
+## 🎨 Diseño
+- Maquetado con **Bootstrap**
+- Enfoque en la funcionalidad y lógica de React más que en estilos personalizados
+
+## 🧠 Objetivo del Proyecto
+Aplicar los conceptos fundamentales de React:
+- Componentización
+- Manejo de estado
+- Renderizado condicional
+- Flujo de datos
+- Organización de una SPA (Single Page Application)
+
+## ⚙️ Instalación y uso
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
